@@ -10,6 +10,7 @@ Each skill is a plain `SKILL.md` that tells Claude how to do one job well. They 
 |---|---|---|---|
 | 1 | [Auditing Your Content Strategy](./1.%20Auditing%20Your%20Content%20Strategy) (`content-strategy`) | You're planning or auditing a nurture, evergreen flow, webinar follow-up or re-engagement flow, and need to decide what it's for, who it's for and what it can ask | 1.1.1 |
 | 2 | [Writing Marketing Emails](./2.%20Writing%20Marketing%20Emails) (`marketing-emails`) | You're writing or auditing the emails inside an automated HubSpot workflow, including send eligibility, exits, cadence and a QA pass | 1.0.0 |
+| 3 | [Running Webinar and Event Campaigns](./3.%20Running%20Webinar%20and%20Event%20Campaigns) (`webinar-campaigns`) | You're planning, building or auditing a webinar or event campaign, from registration and promo through attendee and no-show follow-up and the replay | 0.1.0 (draft) |
 
 More are coming and I'll add them to this table as they're built.
 
@@ -19,8 +20,9 @@ Start with strategy and move to the emails.
 
 1. **content-strategy** sets the architecture: entry signal, persona, stage, offer and exit condition, plus the reciprocity rules.
 2. **marketing-emails** takes that architecture and writes or audits the emails, and hands the work back to content-strategy if the architecture isn't there yet.
+3. **webinar-campaigns** builds the whole event chain on top of both: it uses content-strategy for the audience and offer and marketing-emails for the copy and send checks on each email.
 
-Each skill says where it stops and which skill owns the next job, so you can use one on its own or both together.
+Each skill says where it stops and which skill owns the next job, so you can use one on its own or together.
 
 ## How to use a skill
 
@@ -52,6 +54,9 @@ marketing-content-hub/
   2. Writing Marketing Emails/
     marketing-emails.skill
     marketing-emails/SKILL.md
+  3. Running Webinar and Event Campaigns/
+    webinar-campaigns.skill
+    webinar-campaigns/SKILL.md
 ```
 
 New skills get the next number and their own folder, in the order they're built.
