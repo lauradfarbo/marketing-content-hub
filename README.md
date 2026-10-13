@@ -8,7 +8,7 @@ Each skill is a plain `SKILL.md` that tells Claude how to do one job well. They 
 
 | # | Skill | Use it when | Version |
 |---|---|---|---|
-| 1 | [Auditing Your Content Strategy](./1.%20Auditing%20Your%20Content%20Strategy) (`content-strategy`) | You're planning or auditing a nurture, evergreen flow, webinar follow-up or re-engagement flow, and need to decide what it's for, who it's for and what it can ask | 1.1.1 |
+| 1 | [Auditing Your Content Strategy](./1.%20Auditing%20Your%20Content%20Strategy) (`content-strategy`) | You're auditing or planning content on any channel (web pages, blog, email, social, gated assets, sales collateral), or designing a nurture, evergreen flow or webinar follow-up and need to decide what it's for, who it's for and what it can ask | 1.2.0 |
 | 2 | [Writing Marketing Emails](./2.%20Writing%20Marketing%20Emails) (`marketing-emails`) | You're writing or auditing the emails inside an automated HubSpot workflow, including send eligibility, exits, cadence and a QA pass | 1.0.0 |
 | 3 | [Running Webinar and Event Campaigns](./3.%20Running%20Webinar%20and%20Event%20Campaigns) (`webinar-campaigns`) | You're planning, building or auditing a webinar or event campaign, from registration and promo through attendee and no-show follow-up and the replay | 1.0.0 |
 
@@ -18,7 +18,7 @@ More are coming and I'll add them to this table as they're built.
 
 Start with strategy and move to the emails.
 
-1. **content-strategy** sets the architecture: entry signal, persona, stage, offer and exit condition, plus the reciprocity rules.
+1. **content-strategy** audits content on any channel and sets the architecture for lifecycle flows: entry signal, persona, stage, offer and exit condition, plus the reciprocity rules.
 2. **marketing-emails** takes that architecture and writes or audits the emails, and hands the work back to content-strategy if the architecture isn't there yet.
 3. **webinar-campaigns** builds the whole event chain on top of both: it uses content-strategy for the audience and offer and marketing-emails for the copy and send checks on each email.
 
@@ -51,6 +51,7 @@ Fork the repo and edit the files, or copy a skill into your own library and rena
 marketing-content-hub/
   1. Auditing Your Content Strategy/
     content-strategy.skill
+    content-strategy/SKILL.md
   2. Writing Marketing Emails/
     marketing-emails.skill
     marketing-emails/SKILL.md
