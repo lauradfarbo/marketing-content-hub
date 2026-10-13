@@ -10,7 +10,7 @@ Each skill is a plain `SKILL.md` that tells Claude how to do one job well. They 
 |---|---|---|---|
 | 1 | [Auditing Your Content Strategy](./1.%20Auditing%20Your%20Content%20Strategy) (`content-strategy`) | You're planning or auditing a nurture, evergreen flow, webinar follow-up or re-engagement flow, and need to decide what it's for, who it's for and what it can ask | 1.1.1 |
 | 2 | [Writing Marketing Emails](./2.%20Writing%20Marketing%20Emails) (`marketing-emails`) | You're writing or auditing the emails inside an automated HubSpot workflow, including send eligibility, exits, cadence and a QA pass | 1.0.0 |
-| 3 | [Running Webinar and Event Campaigns](./3.%20Running%20Webinar%20and%20Event%20Campaigns) (`webinar-campaigns`) | You're planning, building or auditing a webinar or event campaign, from registration and promo through attendee and no-show follow-up and the replay | 0.1.0 (draft) |
+| 3 | [Running Webinar and Event Campaigns](./3.%20Running%20Webinar%20and%20Event%20Campaigns) (`webinar-campaigns`) | You're planning, building or auditing a webinar or event campaign, from registration and promo through attendee and no-show follow-up and the replay | 1.0.0 |
 
 More are coming and I'll add them to this table as they're built.
 

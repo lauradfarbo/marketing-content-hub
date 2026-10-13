@@ -3,7 +3,7 @@ name: webinar-campaigns
 author: Laura Farbo
 description: Use when planning, building or auditing a webinar or event campaign in HubSpot, from first promotion through registration, the live event, attendee and no-show follow-up, and the replay. Covers audience segmentation, promo cadence, registration forms and branching, follow-up logic, replay assets, co-hosted and partner events, reporting limits and a QA pass. Trigger words include "webinar campaign," "webinar series," "event promotion," "promo emails," "registration form," "no-show emails," "attendee follow-up," "replay page," "recording email," "on-demand webinar," "co-hosted webinar," "event follow-up," or a request to audit a webinar flow. Assumes the audience and offer are already defined in content-strategy, and uses marketing-emails for the copy and send checks on each email. Not for rep-led sales follow-up cadences, in-person event logistics or paid media.
 metadata:
-  version: 0.1.0
+  version: 1.0.0
 ---
 
 # Webinar and Event Campaigns
